@@ -28,7 +28,7 @@ public class SumUpToZero {
             sum += i;
         }
 
-        arr[arr.length-1] =-sum;
+        arr[arr.length-1] =- sum;
         return arr;
     }
 }
